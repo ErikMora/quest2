@@ -10,10 +10,10 @@ import (
 
 var (
 	usr      = "Admin"
-	pwd      = "PASSWd"
+	pwd      = "PASSWD"
 	host     = "localhost"
 	port     = 27017
-	database = "test"
+	database = "Locations"
 )
 
 func GetCollection(collection string) *mongo.Collection {
